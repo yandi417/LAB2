@@ -1,8 +1,8 @@
 let currentDevice;
 let isPause=false;
 let isFilt=false;
-const serviceUUID = '0000ff05-0000-1000-8000-00805f9b34fb';
-const charUUID = '0000aa05-0000-1000-8000-00805f9b34fb';
+const serviceUUID = '0000ff01-0000-1000-8000-00805f9b34fb';
+const charUUID = '0000aa01-0000-1000-8000-00805f9b34fb';
 let package = [];
 
 $('.btn').click(ble);
